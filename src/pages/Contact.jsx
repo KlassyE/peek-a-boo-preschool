@@ -18,14 +18,14 @@ const Contact = () => {
           <h2>Peek a boo Pre-school</h2>
           <address>
             <span><MapPin size={19} aria-hidden="true" /> Kampala, Uganda</span>
-            <a href="mailto:hello@peekaboopreschool.ug">
-              <Mail size={19} aria-hidden="true" /> hello@peekaboopreschool.ug
+            <a href="mailto:hello@peek-a-boo-preschool.com">
+              <Mail size={19} aria-hidden="true" /> hello@peek-a-boo-preschool.com
             </a>
             <span><Phone size={19} aria-hidden="true" /> Admissions open</span>
           </address>
         </div>
 
-        <form className="contact-form" action="mailto:hello@peekaboopreschool.ug" method="post" encType="text/plain">
+        <form className="contact-form" action="mailto:hello@peek-a-boo-preschool.com" method="post" encType="text/plain">
           <label>
             Parent or guardian name
             <input name="name" type="text" placeholder="Your name" />

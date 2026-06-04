@@ -19,7 +19,7 @@ function Footer() {
 
       <address className="footer-contact">
         <span><MapPin size={17} aria-hidden="true" /> Kampala, Uganda</span>
-        <span><Mail size={17} aria-hidden="true" /> hello@peekaboopreschool.ug</span>
+        <span><Mail size={17} aria-hidden="true" /> hello@peek-a-boo-preschool.com</span>
         <span><Phone size={17} aria-hidden="true" /> Admissions open</span>
       </address>
     </footer>
