@@ -1,0 +1,81 @@
+:root {
+  --blue: #1584c7;
+  --green: #0e9d4e;
+  --red: #ef1f2f;
+  --orange: #f99a22;
+  --purple: #8752ff;
+  --coral: #ff8650;
+  --sky: #d9effc;
+  --sky-soft: #eff9ff;
+  --sun-soft: #fff0c7;
+  --leaf-soft: #eaf8d9;
+  --white: #ffffff;
+  --cream: #fffaf0;
+  --ink: #1f1f25;
+  --ink-soft: #5b5b66;
+  --blue-shadow: rgba(21, 132, 199, 0.34);
+  --green-shadow: rgba(14, 157, 78, 0.34);
+  --red-shadow: rgba(239, 31, 47, 0.26);
+  --orange-shadow: rgba(249, 154, 34, 0.36);
+  --purple-shadow: rgba(135, 82, 255, 0.27);
+  --ink-soft-shadow: rgba(31, 31, 37, 0.22);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100svh;
+  margin: 0;
+  background-color: #fbfbf9; /* Off-white canvas */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cg opacity='0.55'%3E%3Cpath fill='%23ef1f2f' d='M100,80 Q50,40 70,100 T110,140 Q140,110 100,80Z'/%3E%3Ccircle fill='%23ef1f2f' cx='40' cy='60' r='10'/%3E%3Ccircle fill='%23ef1f2f' cx='150' cy='150' r='6'/%3E%3Ccircle fill='%23ef1f2f' cx='80' cy='160' r='3'/%3E%3Cpath fill='%231584c7' d='M450,150 Q520,100 480,180 T430,220 Q390,170 450,150Z'/%3E%3Ccircle fill='%231584c7' cx='540' cy='120' r='12'/%3E%3Ccircle fill='%231584c7' cx='390' cy='230' r='8'/%3E%3Ccircle fill='%231584c7' cx='510' cy='240' r='4'/%3E%3Cpath fill='%230e9d4e' d='M150,400 Q80,360 110,430 T160,470 Q200,410 150,400Z'/%3E%3Ccircle fill='%230e9d4e' cx='50' cy='460' r='11'/%3E%3Ccircle fill='%230e9d4e' cx='210' cy='360' r='6'/%3E%3Cpath fill='%23ffc82c' d='M500,450 Q560,400 530,480 T480,530 Q440,460 500,450Z'/%3E%3Ccircle fill='%23ffc82c' cx='580' cy='410' r='14'/%3E%3Ccircle fill='%23ffc82c' cx='430' cy='530' r='9'/%3E%3Ccircle fill='%23ffc82c' cx='550' cy='550' r='5'/%3E%3Cpath fill='%231f1f25' d='M300,280 Q250,240 280,300 T320,330 Q340,270 300,280Z'/%3E%3Ccircle fill='%231f1f25' cx='230' cy='300' r='5'/%3E%3Ccircle fill='%231f1f25' cx='350' cy='250' r='3'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 550px 550px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  letter-spacing: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+::selection {
+  color: var(--white);
+  background: var(--red);
+}

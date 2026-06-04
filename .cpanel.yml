@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    # Deploy the pre-built production bundle (dist/) to the web root.
+    # IMPORTANT: replace "username" below with your real cPanel account name,
+    # e.g. /home/klassye/public_html/
+    - export DEPLOYPATH=/home/username/public_html/
+    - /bin/mkdir -p $DEPLOYPATH
+    # Copy the built site (including dotfiles like .htaccess) into the web root.
+    - /bin/cp -R dist/. $DEPLOYPATH
